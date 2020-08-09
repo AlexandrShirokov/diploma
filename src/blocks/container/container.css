@@ -8,3 +8,9 @@
     z-index: -1; 
     background-position: left;
   }
+
+@media screen and (max-width: 767px) {
+    .container {
+      background-position: top;
+    }
+}
