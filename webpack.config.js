@@ -7,10 +7,14 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
-  entry: { main: './src/index.js' },
+  entry: { 
+    index: './src/index.js',
+    about: './src/about.js',
+    analytics: './src/analytics.js' 
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: './js/[name].[chunkhash].js',
   },
   module: {
     rules: [
@@ -22,21 +26,26 @@ module.exports = {
         }
       },
       {
-        test: /\.(png|jpg|gif|ico|svg)$/,
+        test: /\.(png|jpe?g|gif|ico|svg)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: './images/[name].[ext]',
               esModule: false
             },
-          }
-        ]  
+          },
+        ] 
       },   
       {
         test: /\.css$/i,
         use: [
-          (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
+          (isDev ? 'style-loader' : {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../',
+            }
+          }),
           {
             loader:'css-loader',
             options: {
@@ -54,7 +63,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({ 
-      filename: 'style.[contenthash].css',
+      filename: './css/[name].[contenthash].css',
     }),
     new OptimizeCssAssetsPlugin({
         assetNameRegExp: /\.css$/g,
@@ -67,7 +76,20 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: false,
       template: './src/index.html',
+      chunks: ['index'],
       filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/about.html',
+      chunks: ['about'],
+      filename: 'about.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/analytics.html',
+      chunks: ['analytics'],
+      filename: 'analytics.html'
     }),
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({

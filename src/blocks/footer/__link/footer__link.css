@@ -1,0 +1,25 @@
+.footer__link {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #1A1B22;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1090px) {
+    .footer__link {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        padding-left: 0px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+}

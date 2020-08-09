@@ -1,0 +1,21 @@
+@import url('./__button/results__button.css');
+@import url('./__card/results__card.css');
+@import url('./__card-header/results__card-header.css');
+@import url('./__container/results__container.css');
+@import url('./__header/results__header.css');
+@import url('./__paragraph/results__paragraph.css');
+@import url('./__source/results__source.css');
+@import url('./__news-cards/results__news-cards.css');
+@import url('./__date/results__date.css');
+@import url('./__image/results__image.css');
+@import url('./__analytics/results__analytics.css');
+@import url('./__arrow/results__arrow.css');
+
+.results {
+    max-width: 1440px;
+    background: #F5F6F7;
+    display: flex;
+    /* display: none; */
+    position: relative;
+    flex-direction: column;
+}

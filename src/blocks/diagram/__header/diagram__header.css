@@ -1,0 +1,22 @@
+.diagram__header {
+    font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin: 80px auto 48px 104px; 
+}
+
+@media screen and (max-width: 1023px) {
+    .diagram__header {
+        margin: 40px 40px 48px 40px; 
+    }
+}    
+
+@media screen and (max-width: 767px) {
+    .diagram__header {
+        margin: 24px 16px 16px 16px; 
+        font-size: 22px;
+    }
+}  

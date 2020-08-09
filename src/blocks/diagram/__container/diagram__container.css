@@ -1,0 +1,17 @@
+.diagram__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 104px 0 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .diagram__container {
+        margin: 0 40px 0 40px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .diagram__container {
+        margin: 18px 16px 0 16px;
+    }
+}

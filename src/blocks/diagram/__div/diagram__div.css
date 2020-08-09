@@ -1,0 +1,28 @@
+.diagram__div {
+  background: #2F71E5;
+  width: 15%;
+}
+
+.diagram__div:nth-child(2) {
+  width: 18%;
+}
+
+.diagram__div:nth-child(3) {
+  width: 11%;
+}
+
+.diagram__div:nth-child(4) {
+  width: 39%;
+}
+
+.diagram__div:nth-child(5) {
+  width: 45%;
+}
+
+.diagram__div:nth-child(6) {
+  width: 73%;
+}
+
+.diagram__div:nth-child(7) {
+  width: 34%;
+}

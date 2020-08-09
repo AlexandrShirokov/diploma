@@ -1,0 +1,6 @@
+.diagram__date-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 53px;
+    align-items: center;
+}

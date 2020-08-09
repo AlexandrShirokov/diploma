@@ -1,0 +1,12 @@
+.commits__arrow-left {
+    position: absolute;
+    top: 306px;
+    left: 24px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+    .commits__arrow-left {
+        display: none;
+    }
+}

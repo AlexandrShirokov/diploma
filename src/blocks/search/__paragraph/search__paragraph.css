@@ -1,0 +1,26 @@
+.search__paragraph {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 608px;
+    min-width: 380px;
+}
+
+@media screen and (max-width: 1023px) {
+    .search__paragraph {
+        margin: 16px 150px 0 160px;
+        min-width: 288px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search__paragraph {
+        margin: 16px 16px 0 16px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

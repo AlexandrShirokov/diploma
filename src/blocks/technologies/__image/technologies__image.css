@@ -1,0 +1,9 @@
+.technologies__image {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+    .technologies__image {
+        margin-left: 0;
+    }
+  }

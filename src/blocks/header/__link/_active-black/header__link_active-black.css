@@ -1,0 +1,17 @@
+.header__link.header__link_active-black {
+    padding-bottom: 23px;
+    box-shadow: 0 3px 0 0 black;
+    color: black;
+}
+
+.header__link.header__link_active-black:hover {
+    color: black;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__link.header__link_active-black {
+        padding-bottom: 16px;
+    }
+  }
+
+  

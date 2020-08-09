@@ -1,0 +1,11 @@
+.not-found__header{
+    font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1B22;
+    margin: 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,15 @@
+.results__date {
+    font-family: 'Source Sans Pro', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    margin: 20px 24px 0 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .results__date {
+        margin: 16px 16px 0 16px;
+    }
+}

@@ -1,0 +1,23 @@
+@import url('./_github/results__analytics_github.css');
+
+.results__analytics {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    text-decoration: none;
+    background-image: url('../../../images/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 18px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .results__analytics {
+        margin-top: 15px; 
+    }
+}

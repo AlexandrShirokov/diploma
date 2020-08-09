@@ -1,0 +1,22 @@
+@import url('../__logo/_black/header__logo_black.css');
+
+.header__logo {
+  margin: 0;
+  margin-right: auto;
+  font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.header__logo:hover {
+  color: #B6BCBF;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    font-size: 16px;
+  }
+}

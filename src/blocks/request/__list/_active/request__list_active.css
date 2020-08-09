@@ -1,0 +1,9 @@
+.request__list_active {
+
+}
+
+.request__list.request__list_active::before {
+    content: '/';
+    padding: 0 7px;
+    color: #B6BCBF;
+}

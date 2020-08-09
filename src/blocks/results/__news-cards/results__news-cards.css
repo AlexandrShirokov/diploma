@@ -1,0 +1,20 @@
+.results__news-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 64px 104px 0 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .results__news-cards {
+        margin: 32px 40px 0 40px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .results__news-cards {
+        margin: 36px 16px 0 16px;
+        flex-direction: column; 
+        align-items: center;
+    }
+}

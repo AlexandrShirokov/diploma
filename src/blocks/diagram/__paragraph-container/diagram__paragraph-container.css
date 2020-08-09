@@ -1,0 +1,21 @@
+.diagram__paragraph-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-left: 104px;
+    justify-content: space-between;
+    width: 243px;
+}
+
+@media screen and (max-width: 1023px) {
+    .diagram__paragraph-container {
+        margin-left: 40px;
+    }
+}  
+
+@media screen and (max-width: 767px) {
+    .diagram__paragraph-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}  

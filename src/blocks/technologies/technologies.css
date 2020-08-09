@@ -1,0 +1,26 @@
+@import url('./__container/technologies__container.css');
+@import url('./__header/technologies__header.css');
+@import url('./__image/technologies__image.css');
+
+.technologies {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F5F6F7;
+    margin: 0;
+    margin-top: 94px;
+}
+
+@media screen and (max-width: 1023px) {
+    .technologies {
+        margin-top: 46px;
+        flex-direction: column;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .technologies {
+        margin-top: 46px;
+    }
+}

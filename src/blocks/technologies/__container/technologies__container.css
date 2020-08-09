@@ -1,0 +1,20 @@
+.technologies__container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 93px 217px 87px auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .technologies__container {
+        margin: 40px 40px 40px 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .technologies__container {
+        margin: 32px 16px 40px 16px;
+        flex-wrap: wrap;
+    }
+}

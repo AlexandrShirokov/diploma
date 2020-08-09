@@ -1,0 +1,21 @@
+.request__breadcrumbs {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .request__breadcrumbs {
+        margin-left: 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .request__breadcrumbs {
+        display: none;
+    }
+  }

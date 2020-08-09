@@ -1,0 +1,9 @@
+.footer__links {
+    display: inline;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        margin-bottom: 27px;
+    }
+}

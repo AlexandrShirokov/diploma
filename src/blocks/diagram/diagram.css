@@ -1,0 +1,19 @@
+@import url('./__block/diagram__block.css');
+@import url('./__container/diagram__container.css');
+@import url('./__date-block/diagram__date-block.css');
+@import url('./__date/diagram__date.css');
+@import url('./__div/diagram__div.css');
+@import url('./__header/diagram__header.css');
+@import url('./__paragraph-container/diagram__paragraph-container.css');
+@import url('./__paragraph/diagram__paragraph.css');
+@import url('./__percent-container/diagram__percent-container.css');
+@import url('./__percent/diagram__percent.css');
+@import url('./__span/diagram__span.css');
+
+.diagram {
+    background: #F5F6F7;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

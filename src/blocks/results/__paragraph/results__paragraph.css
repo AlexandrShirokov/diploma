@@ -1,0 +1,21 @@
+.results__paragraph {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px; 
+    line-height: 22px;
+    color: #1A1B22;
+    margin: 16px 24px 10px 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+    .results__paragraph {
+        margin: 10px 16px 10px 16px;
+        -webkit-line-clamp: 4;
+    }
+}
