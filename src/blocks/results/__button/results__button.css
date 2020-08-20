@@ -9,11 +9,11 @@
     width: 288px;
     height: 64px;
     background: #FFFFFF;
+    border: none;
     border-radius: 80px;
     padding: 0;
     margin: 0 auto;
     margin-top: 64px;
-    margin-bottom: 80px;
 }
 
 .results__button:hover {

@@ -5,6 +5,7 @@
     max-width: 400px;
     border-radius: 16px;
     background-color: white;
+    margin-bottom: 16px;
 }
 
 .results__card:hover {

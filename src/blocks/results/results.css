@@ -14,8 +14,8 @@
 .results {
     max-width: 1440px;
     background: #F5F6F7;
-    display: flex;
-    /* display: none; */
+    display: none;
     position: relative;
     flex-direction: column;
+    padding-bottom: 80px;
 }

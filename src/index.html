@@ -25,7 +25,7 @@
           <h2 class="search__header">Что в мире творится?</h2>
           <p class="search__paragraph">Введите в поиске любую тему и узнайте, насколько популярной она&nbsp;была в новостях за прошедшую неделю.</p>
           <form class="search__form">
-            <input class="search__input" type="text" placeholder="Введите тему новости" required>
+            <input type="text" name="search" id="search" class="search__input search__input_type_search" placeholder="Введите тему новости" required>
             <button class="search__button" type="submit">Искать</button>
           </form>
         </section>
@@ -44,21 +44,29 @@
           <p class="not-found__paragraph">К сожалению по вашему запросу ничего не найдено.</p>       
         </section>
 
+        <section class="error">
+          <h4 class="error__header">Страница не найдена</h4>  
+          <p class="error__paragraph">Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. 
+            Подождите немного и попробуйте ещё раз.</p>       
+        </section>
+
         <section class="results">
           <div class="results__container">
             <h3 class="results__header">Результаты поиска</h3>
             <a class="results__analytics" href="analytics.html">Посмотреть аналитику </a>
           </div>
           <div class="results__news-cards">
-            <a class="results__card" href="https://lenta.ru/" target="_blank">
-              <img class="results__image" src="<%=require('./images/flowers.png')%>" alt="изображение новости">
-              <p class="results__date">2 августа, 2019</p>
-              <h4 class="results__card-header">Национальное достояние – парки</h4>
-              <p class="results__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, 
-                где и сегодня каждый может приобщиться к природе.</p>
-              <p class="results__source">лента.ру</p>
-            </a>
-            <a class="results__card" href="https://meduza.io/" target="_blank">
+            <template class="template">
+              <a class="results__card" target="_blank">
+                <img class="results__image">
+                <p class="results__date"></p>
+                <h4 class="results__card-header"></h4>
+                <p class="results__paragraph"></p>
+                <p class="results__source"></p>
+              </a>
+            </template>
+            
+            <!-- <a class="results__card" href="https://meduza.io/" target="_blank">
               <img class="results__image" src="<%=require('./images/flowers1.jpg')%>" alt="изображение новости">
               <p class="results__date">2 августа, 2019</p>
               <h4 class="results__card-header">Лесные огоньки: история одной фотографии</h4>
@@ -73,7 +81,7 @@
               <p class="results__paragraph">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. 
                 В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
               <p class="results__source">риа</p>
-            </a>
+            </a> -->
           </div>
           <button class="results__button" type="submit">Показать ещё</button>
         </section>

@@ -57,44 +57,24 @@
       <section class="commits">
         <div class="results__container">
           <h3 class="results__header">История коммитов из GitHub</h3>
-          <a class="results__analytics results__analytics_github" href="https://github.com/">Открыть в  Github </a>
+          <a class="results__analytics results__analytics_github" href="https://github.com/" target="_blank">Открыть в  Github </a>
         </div>
         <img class="commits__arrow-left" src="<%=require('./images/commits-arrow-left.svg')%>" alt="стрелка влево">
         <img class="commits__arrow-right" src="<%=require('./images/commits-arrow-right.svg')%>" alt="стрелка вправо">
         <div class="commits__container">
-          <a class="commits__card" href="https://github.com/AlexandrShirokov/diploma/commits?author=AlexandrShirokov">
-            <p class="commits__date">14 августа, 2019</p>
-            <div class="commits__card-container">
-              <img class="commits__avatar" src="<%=require('./images/avatar2.png')%>" alt="аватар автора">
-              <div class="commits__block">
-                <h5 class="commits__header">Антон Долинин</h5>
-                <p class="commits__paragraph">anton@yandex.ru</p>
+          <template class="template-commits">
+            <a class="commits__card" href="https://github.com/AlexandrShirokov/diploma/commits?author=AlexandrShirokov">
+              <p class="commits__date"></p>
+              <div class="commits__card-container">
+                <img class="commits__avatar" src="<%=require('./images/avatar2.png')%>" alt="аватар автора">
+                <div class="commits__block">
+                  <h5 class="commits__header"></h5>
+                  <p class="commits__paragraph"></p>
+                </div>
               </div>
-            </div>
-            <p class="commits__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="commits__card" href="https://github.com/AlexandrShirokov/diploma/commits?author=AlexandrShirokov">
-            <p class="commits__date">14 августа, 2019</p>
-            <div class="commits__card-container">
-              <img class="commits__avatar" src="<%=require('./images/avatar2.png')%>" alt="аватар автора">
-              <div class="commits__block">
-                <h5 class="commits__header">Антон Долинин</h5>
-                <p class="commits__paragraph">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="commits__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="commits__card" href="https://github.com/AlexandrShirokov/diploma/commits?author=AlexandrShirokov">
-            <p class="commits__date">14 августа, 2019</p>
-            <div class="commits__card-container">
-              <img class="commits__avatar" src="<%=require('./images/avatar2.png')%>" alt="аватар автора">
-              <div class="commits__block">
-                <h5 class="commits__header">Антон Долинин</h5>
-                <p class="commits__paragraph">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="commits__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-          </a>
+              <p class="commits__text"></p>
+            </a>
+          </template>
         </div>
         <img class="commits__dots" src="<%=require('./images/commits.svg')%>" alt="three dots">
         <a class="commits__link-button commits__button" href="https://github.com/" target="_blank">Открыть в  Github</a>
