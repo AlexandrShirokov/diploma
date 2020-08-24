@@ -22,11 +22,3 @@ export class NewsCard {
         return this.card
       }
 }
-
-//getday
-
-// const date = new Date(this.item.publishedAt).toLocaleString('ru', {
-//   day: 'numeric',
-//   month: 'long',
-//   year: 'numeric'
-// });

@@ -2,7 +2,6 @@ import './pages/index.css';
 import {NewsApi} from './js/modules/NewsApi.js';
 import {NewsCard} from './js/components/NewsCard.js';
 import {NewsCardList} from './js/components/NewsCardList.js';
-//import {DataStorage} from './js/modules/DataStorage.js';
 
 (function () {
   const resultsNewsCards = document.querySelector('.results__news-cards');
@@ -89,7 +88,6 @@ import {NewsCardList} from './js/components/NewsCardList.js';
     const newsCardList = new NewsCardList(resultsNewsCards, createCardCallback);
 
     newsApi.getNews().then(res => { 
-      //localStorage.clear();
       localStorage.setItem('cards', JSON.stringify(res));
       const raw = localStorage.getItem('cards');
       const parse = JSON.parse(raw);
