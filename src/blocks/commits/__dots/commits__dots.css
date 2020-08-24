@@ -1,18 +1,18 @@
 .commits__dots {
     margin-top: 48px;
     margin-bottom: 80px;
+    color:black
 }
 
 @media screen and (max-width: 1023px) {
     .commits__dots {
-        margin-top: 32px;
+        margin-top: 0;
         margin-bottom: 40px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .commits__dots {
-        margin-top: 16px;
         margin-bottom: 24px;
     }
 }

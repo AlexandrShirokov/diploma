@@ -6,7 +6,7 @@
     margin: 93px 217px 87px auto;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1100px) {
     .technologies__container {
         margin: 40px 40px 40px 40px;
     }

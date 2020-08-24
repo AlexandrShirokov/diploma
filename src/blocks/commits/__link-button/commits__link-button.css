@@ -2,6 +2,9 @@
     display: none;
 }
 
+.commits__link-button {
+    box-shadow: 8px 8px 8px 0px rgba(8,29,45,0.1);
+}
 
 @media screen and (max-width: 767px) {
     .commits__link-button {

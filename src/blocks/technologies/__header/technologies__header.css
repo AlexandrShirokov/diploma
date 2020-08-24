@@ -9,7 +9,7 @@
     margin: 80px auto auto 104px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1100px) {
     .technologies__header {
         font-size: 30px;
         line-height: 34px;

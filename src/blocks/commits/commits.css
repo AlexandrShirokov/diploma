@@ -12,6 +12,7 @@
 @import url('./__link-button/commits__link-button.css');
 @import url('./__paragraph/commits__paragraph.css');
 @import url('./__text/commits__text.css');
+@import url('./__wrapper/commits__wrapper.css');
 
 .commits {
     background: #F5F6F7;

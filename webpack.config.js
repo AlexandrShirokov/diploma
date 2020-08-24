@@ -10,7 +10,7 @@ module.exports = {
   entry: { 
     index: './src/index.js',
     about: './src/about.js',
-    analytics: './src/analytics.js' 
+    analytics: './src/analytics.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

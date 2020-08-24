@@ -1,10 +1,9 @@
 .commits__container {
     background: #F5F6F7;
     display: flex;
-    position: relative;
     flex-direction: row;
     justify-content: space-between;
-    margin: 64px 104px auto 104px;
+    margin: 64px 0 auto 0;
 
 }
 

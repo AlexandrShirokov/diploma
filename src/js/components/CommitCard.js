@@ -18,7 +18,7 @@ export class CommitCard {
         let year = otherDate.getFullYear();
         this.card.querySelector('.commits__date').textContent = date + ', ' + `${year}`;
         this.card.querySelector('.commits__avatar').setAttribute('src', `${this.item.author.avatar_url}`);
-        this.card.setAttribute('href', `${this.item.url}`);
+        this.card.setAttribute('href', `${this.item.html_url}`);
         return this.card
       }
 }
