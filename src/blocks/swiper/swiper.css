@@ -1,0 +1,64 @@
+.swiper-wrapper {
+    height: 288px !important;   
+}
+
+.swiper-pagination {
+    --swiper-theme-color: black;
+    position: static !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    top: 32%!important;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: url('../../images/commits-arrow-left.svg') !important;
+  
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+    content: url('../../images/commits-arrow-right.svg') !important;
+}
+
+.swiper-container::after {
+    content: '';
+    background-color: black;
+    background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+    position: absolute;
+    z-index: 2;
+    width: 7%;
+    height: 67%;
+    top: 0;
+    right: 0;
+}
+
+.swiper-container::before {
+    content: '';
+    background-color: black;
+    background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+    position: absolute;
+    z-index: 2;
+    width: 7%;
+    height: 67%;
+    left: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .swiper-container::after, .swiper-container::before{
+        display: none !important;
+    }
+}
+/* mask-image: -webkit-gradient(linear, left top, right top, 
+color-stop(0.00,  rgba(0,0,0,0)),
+color-stop(0.35,  rgba(0,0,0,1)),
+color-stop(0.50,  rgba(0,0,0,1)),
+color-stop(0.65,  rgba(0,0,0,1)),
+color-stop(1.00,  rgba(0,0,0,0))); */

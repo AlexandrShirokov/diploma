@@ -1,0 +1,15 @@
+.commits__link-button {
+    display: none;
+}
+
+.commits__link-button {
+    box-shadow: 8px 8px 8px 0px rgba(8,29,45,0.1);
+}
+
+@media screen and (max-width: 767px) {
+    .commits__link-button {
+        display: block;
+        text-decoration: none;
+        margin: 0 16px 32px 16px;
+    }
+}

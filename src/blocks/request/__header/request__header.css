@@ -1,0 +1,24 @@
+.request__header {
+    font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .request__header {
+        font-size: 32px;
+        line-height: 34px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .request__header {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+  }

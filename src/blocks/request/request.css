@@ -1,0 +1,29 @@
+@import url('./__breadcrumbs/request__breadcrumbs.css');
+@import url('./__container/request__container.css');
+@import url('./__header-span/request__header-span.css');
+@import url('./__header/request__header.css');
+@import url('./__link/request__link.css');
+@import url('./__list/request__list.css');
+@import url('./__paragraph/request__paragraph.css');
+@import url('./__span/request__span.css');
+
+.request {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+    .request {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .request {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+  }

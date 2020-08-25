@@ -1,0 +1,6 @@
+@media screen and (max-width: 765px) {
+    .results__analytics.results__analytics_github {
+        display: none;
+    }
+}
+

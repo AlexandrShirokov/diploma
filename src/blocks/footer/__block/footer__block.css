@@ -1,0 +1,20 @@
+@import url('./_resources/footer__block_resources.css');
+
+.footer__block {
+    padding: 0;
+    margin-right: 107px;
+}
+
+@media screen and (max-width: 1090px) {
+    .footer__block {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}

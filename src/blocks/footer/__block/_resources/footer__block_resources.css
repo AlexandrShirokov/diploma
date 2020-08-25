@@ -1,0 +1,20 @@
+@media screen and (max-width: 1090px) {
+    .footer__block.footer__block_resources {
+        margin-right: 40px;
+  
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__block.footer__block_resources {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-right: 16px;
+        align-self: start;
+        position: absolute;
+        bottom: 94px;
+        left: 216px;
+    }
+}  
+  

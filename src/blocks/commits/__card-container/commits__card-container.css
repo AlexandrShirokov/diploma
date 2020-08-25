@@ -1,0 +1,7 @@
+.commits__card-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px auto 0 24px;
+}

@@ -1,0 +1,22 @@
+@import url('./__arrow-left/commits__arrow-left.css');
+@import url('./__arrow-right/commits__arrow-right.css');
+@import url('./__avatar/commits__avatar.css');
+@import url('./__block/commits__block.css');
+@import url('./__button/commits__button.css');
+@import url('./__card-container/commits__card-container.css');
+@import url('./__card/commits__card.css');
+@import url('./__container/commits__container.css');
+@import url('./__date/commits__date.css');
+@import url('./__dots/commits__dots.css');
+@import url('./__header/commits__header.css');
+@import url('./__link-button/commits__link-button.css');
+@import url('./__paragraph/commits__paragraph.css');
+@import url('./__text/commits__text.css');
+@import url('./__wrapper/commits__wrapper.css');
+
+.commits {
+    background: #F5F6F7;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}

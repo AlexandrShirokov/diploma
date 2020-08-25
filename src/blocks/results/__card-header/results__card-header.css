@@ -1,0 +1,28 @@
+.results__card-header {
+    font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin: 12px 24px 0 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .results__card-header {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 22px;
+        line-height: 24px;
+        margin: 12px 16px 0 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .results__card-header {
+        line-height: 26px;
+    }
+}

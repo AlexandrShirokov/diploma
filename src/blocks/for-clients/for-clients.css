@@ -1,0 +1,10 @@
+@import url('../for-clients/__header/for-clients__header.css');
+@import url('../for-clients/__paragraph/for-clients__paragraph.css');
+
+.for-clients {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}

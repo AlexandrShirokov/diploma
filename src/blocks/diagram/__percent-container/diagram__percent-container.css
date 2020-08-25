@@ -1,0 +1,30 @@
+.diagram__percent-container {
+  border-top: 1px solid #1A1B22;
+  margin: 10px 104px 0 104px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 103px;
+}
+
+.diagram__percent-container:last-child {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 75px;
+}
+
+@media screen and (max-width: 1023px) {
+  .diagram__percent-container {
+    margin: 10px 40px 0 40px;
+  }
+}  
+
+@media screen and (max-width: 767px) {
+  .diagram__percent-container {
+      margin-left: 16px;
+      margin-right: 16px;
+  }
+  .diagram__percent-container:last-child {
+    margin-bottom: 38px;
+  }
+}  

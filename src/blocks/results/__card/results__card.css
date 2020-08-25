@@ -1,0 +1,39 @@
+.results__card {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.results__card:hover {
+    box-shadow: 8px 8px 8px 0px rgba(8,29,45,0.1);
+}
+
+@media screen and (max-width: 1439px) {
+    .results__card {
+        width: 32.5%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .results__card {
+        width: 32.5%;
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .results__card {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .results__card:last-child {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}

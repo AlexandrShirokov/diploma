@@ -1,0 +1,27 @@
+@import url('./_active/header__link_active.css');
+@import url('./_active-black/header__link_active-black.css');
+@import url('./_black/header__link_black.css');
+
+.header__link {
+  font-family: 'Roboto', 'Arial', 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+  margin-left: 34px;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+.header__link:hover {
+ color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link  {
+    font-size: 16px;
+    margin-left: 11px;
+  }
+}
+

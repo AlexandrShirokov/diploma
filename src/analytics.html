@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="News Analyzer">
+  <meta name="author" content="Александр Широков">
+  <link href="<%=htmlWebpackPlugin.files.css %>" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="<%=require('./images/favicon.svg')%>">
+  <title>NewsAnalyzer</title>
+</head>
+<body class="body">
+    <div class="page">
+      <header class="header header_black">
+        <a class="header__logo-link" href="index.html"><p class="header__logo header__logo_black">NewsAnalyzer</p></a>
+        <nav class="header__navigation">
+          <ul class="header__block">
+            <li class="header__links"><a class="header__link header__link_black" href="index.html">Главная</a></li>
+            <li class="header__links"><a class="header__link header__link_black" href="about.html">О проекте</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main class="main">
+        <section class="request">
+          <ul class="request__breadcrumbs">
+            <li class="request__list"><a class="request__link" href="index.html">Главная</a></li>
+            <li class="request__list request__list_active"><a class="request__link request__link_active" href="analytics.html">Аналитика</a></li>
+          </ul>
+          <div class="request__container">
+            <h3 class="request__header">Вы спросили: "<span class="request__header-span"></span>"</h3>
+            <p class="request__paragraph">Новостей за неделю: <span class="request__span request__span-results"></span></p>
+            <p class="request__paragraph">Упоминаний в загаловках: <span class="request__span request__span-title">45</span></p>
+          </div>
+        </section>
+
+        <section class="diagram">
+          <h3 class="diagram__header">Аналитика по дням</h3>
+          <div class="diagram__paragraph-container">
+            <p class="diagram__paragraph">дата<br>(<span class="spanMonth"></span>)</p>
+            <p class="diagram__paragraph">кол-во упоминаний</p>
+          </div>
+          <div class="diagram__percent-container">
+            <p class="diagram__percent">0</p>
+            <p class="diagram__percent">25</p>
+            <p class="diagram__percent">50</p>
+            <p class="diagram__percent">75</p>
+            <p class="diagram__percent">100</p>
+          </div>
+          <div class="diagram__container">
+            <div class="diagram__date-block">
+              <p class="diagram__date diagram__date-1"></p>
+              <p class="diagram__date diagram__date-2"></p>
+              <p class="diagram__date diagram__date-3"></p>
+              <p class="diagram__date diagram__date-4"></p>
+              <p class="diagram__date diagram__date-5"></p>
+              <p class="diagram__date diagram__date-6"></p>
+              <p class="diagram__date diagram__date-7"></p>
+            </div>
+            <div class="diagram__block">
+              <div class="diagram__div diagram__div-1">
+                <p class="diagram__span diagram__span-1"></p>
+              </div>
+              <div class="diagram__div diagram__div-2">
+                <p class="diagram__span diagram__span-2"></p>
+              </div>
+              <div class="diagram__div diagram__div-3">
+                <p class="diagram__span diagram__span-3"></p>
+              </div>
+              <div class="diagram__div diagram__div-4">
+                <p class="diagram__span diagram__span-4"></p>
+              </div>
+              <div class="diagram__div diagram__div-5">
+                <p class="diagram__span diagram__span-5"></p>
+              </div>
+              <div class="diagram__div diagram__div-6">
+                <p class="diagram__span diagram__span-6"></p>
+              </div>
+              <div class="diagram__div diagram__div-7">
+                <p class="diagram__span diagram__span-7"></p>
+              </div>
+            </div>
+          </div>
+          <div class="diagram__percent-container">
+            <p class="diagram__percent">0</p>
+            <p class="diagram__percent">25</p>
+            <p class="diagram__percent">50</p>
+            <p class="diagram__percent">75</p>
+            <p class="diagram__percent">100</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2020&#8194;Supersite</p>
+        <nav class="footer__navigation">
+          <ul class="footer__block">
+            <li class="footer__links"><a class="footer__link" href="index.html">Главная</a></li>
+            <li class="footer__links"><a class="footer__link" href="about.html">О&nbsp;проекте</a></li>
+            <li class="footer__links"><a class="footer__link" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+          </ul>
+        </nav>
+        <ul class="footer__block footer__block_resources">
+          <li class="footer__links"><a class="footer__resources" href="https://github.com/"><img src="<%=require('./images/github.svg')%>" alt="github"></a></li>
+          <li class="footer__links"><a class="footer__resources" href="https://www.facebook.com/"><img src="<%=require('./images/facebook.svg')%>" alt="facebook"></a></li>
+        </ul>
+      </footer>
+    <script src="<%=htmlWebpackPlugin.files.js%>"></script>
+</body>
+</html>

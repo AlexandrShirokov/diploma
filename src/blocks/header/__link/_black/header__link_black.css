@@ -1,0 +1,7 @@
+.header__link_black {
+    color: black;
+}
+
+.header__link.header__link_black:hover {
+    color: black;
+}

@@ -1,0 +1,17 @@
+.diagram__percent {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .diagram__percent {
+        display: none;
+    }
+  }  

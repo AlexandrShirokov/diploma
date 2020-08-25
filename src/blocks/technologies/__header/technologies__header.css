@@ -1,0 +1,25 @@
+.technologies__header {
+    font-family: 'Roboto Slab', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    max-width: 344px;
+    margin: 80px auto auto 104px;
+}
+
+@media screen and (max-width: 1100px) {
+    .technologies__header {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 40px auto auto 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .technologies__header {
+        line-height: 40px;
+        margin: 32px 16px auto 16px;
+    }
+}

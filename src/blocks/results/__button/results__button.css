@@ -1,0 +1,39 @@
+.results__button {
+    font-family: 'Roboto', 'Arial', 'Times New Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+    width: 288px;
+    height: 64px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 80px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.results__button:hover {
+    opacity: 0.9;
+    box-shadow: 8px 8px 8px 0px rgba(8,29,45,0.1);
+}
+
+@media screen and (max-width: 1023px) {
+    .results__button {
+        width: 240px;
+        height: 56px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .results__button {
+        width: 288px;
+        margin-top: 12px;
+        margin-bottom: 44px;
+    }
+}

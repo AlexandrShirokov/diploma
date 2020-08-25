@@ -1,0 +1,40 @@
+.commits__card {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    max-width: 28%;
+    min-width: 28%;
+    min-height: 288px;
+    max-height: 288px;
+    text-decoration: none;
+    
+}
+
+.commits__card:hover {
+    box-shadow: 8px 8px 8px 0px rgba(8,29,45,0.1);
+}
+
+@media screen and (max-width: 1023px) {
+    .commits__card {
+        margin-right: 8px !important;
+        min-width: 49%;
+        max-width: 49%;
+        min-height: 242px;
+        max-height: 242px;
+    }
+    .commits__card:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .commits__card {
+        max-width: 100%;
+        min-height: 242px;
+        padding-bottom: 38px;
+    }
+    .commits__card:nth-child(2) {
+        display: none;
+    }
+}
